@@ -1,4 +1,4 @@
-+ # **Command Handler **
++ # **Command Handler**
 
 + ## **Features**
      + **Simplicity**
