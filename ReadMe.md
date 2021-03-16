@@ -3,7 +3,7 @@
 + ## **Features**
      + **Simplicity**
      + **Easy for beginners**
-     + ** Aliases**
+     + **Aliases**
      +  **Cooldown**
 
 + ## **Example**
@@ -51,7 +51,7 @@ module.exports = {
  ![Tarek Dev](https://cdn.discordapp.com/attachments/778587387160297473/821481873229348864/unknown.png)
 
 
- + ## **Author **
+ + ## **Author**
 - [**!Abderrahmane#9230**](https://discord.gg/PJhTsydevp) 
 
 ![download](https://cdn.discordapp.com/avatars/413019443136954392/096d2b0e3f015535b4bf8a100b88d409.gif)
