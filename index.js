@@ -32,6 +32,7 @@ fs.readdir('./events/', (err, categories) => {
       })
     })
   })
+    })
 client.config = require('./config/bot.json');
 client.commands = new Discord.Collection();
 client.login(process.env.token);
