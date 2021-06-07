@@ -13,7 +13,7 @@ fs.readdir("./commands/", (err, categories) => {
       files.filter(file => file.endsWith(".js")).forEach(file => {
         const command = require(`./commands/${category}/${file}`);
 
-        client.commands.set(command.help.name, command)
+        client.commands.set(command.name, command)
       })
     })
 
