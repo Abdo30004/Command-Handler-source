@@ -1,3 +1,4 @@
 {
-  "prefix":"your prefix"
+  "prefix":"your prefix",
+  "devs:["id1","id2","..ext"]
 }
