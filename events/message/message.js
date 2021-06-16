@@ -9,6 +9,11 @@ module.exports = (client, message, discord) => {
   const cmd = args.shift().toLowerCase()
   const command = client.commands.get(cmd) || client.commands.find(a => a.aliases && a.aliases.includes(cmd))
   if (!command) return
+  if(command){
+   if(command.ownerOnly && !client.config.devs.includes(message.author.id)){
+   return;
+   }
+  }
   if (!cooldowns.has(command.name)) {
     const coll = new Discord.Collection()
     cooldowns.set(command.name, coll)
