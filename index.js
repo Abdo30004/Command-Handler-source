@@ -1,5 +1,5 @@
 const Discord = require('discord.js')
-const client = new Discord.Client();
+const client = new Discord.Client({intents:[512,2]});
 const fs = require('fs');
 const { Collection } = require('discord.js');
 const prefix = require('./config/bot.json');
