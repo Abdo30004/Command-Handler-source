@@ -10,7 +10,7 @@
   "author": "open source",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.5.1",
+    "discord.js": "^13.8.1",
     "ms": "^2.1.3"
   }
 }
